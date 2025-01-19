@@ -81,6 +81,9 @@ public sealed partial class ServerApi : IPostInjectInit
         RegisterActorHandler(HttpMethod.Post, "/admin/actions/force_preset", ActionForcePreset);
         RegisterActorHandler(HttpMethod.Post, "/admin/actions/set_motd", ActionForceMotd);
         RegisterActorHandler(HttpMethod.Patch, "/admin/actions/panic_bunker", ActionPanicPunker);
+
+        // WH14K-Changes | Admin API
+        RegisterWH14KHandlers();
     }
 
     public void Initialize()
@@ -657,6 +660,11 @@ public sealed partial class ServerApi : IPostInjectInit
         PlayerNotFound = 4,
         GameRuleNotFound = 5,
         BadRequest = 6,
+
+        // WH14K-Changes | Admin API
+        // WH14K error codes starts with `2`, e.g `SomeShitHappened = 29` or `SomeOtherShitHappened = 211`
+        BanNotFound = 21,
+        AdminNotFound = 22,
     }
 
     #endregion
