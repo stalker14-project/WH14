@@ -1,0 +1,15 @@
+# - type: entity
+#   parent: WHPersonalStorageBase
+#   id: WHSatchel
+#   name: Leather satchel
+#   description: A very fancy satchel made of fine leather. Looks pretty pricey.
+#   components:
+#   - type: Sprite
+#     sprite: _WH14K/Objects/Clothing/Back/Satchels/leather_satchels.rsi
+#   - type: Storage
+#     grid:
+#     - 0,0,14,1 # 15
+#   - type: InteractedBlacklist
+#     blacklist:
+#       components:
+#       - Xeno
