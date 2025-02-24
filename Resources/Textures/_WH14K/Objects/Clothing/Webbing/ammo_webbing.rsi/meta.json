@@ -8,10 +8,10 @@
   },
   "states": [
     {
-      "name": "icon"
+      "name": "webbing"
     },
     {
-      "name": "equipped-BELT",
+      "name": "equipped",
       "directions": 4
     },
     {
