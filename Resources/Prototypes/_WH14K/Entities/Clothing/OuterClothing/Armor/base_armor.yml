@@ -1,0 +1,132 @@
+# base
+- type: entity
+  parent: [ ClothingOuterBaseMedium ] #TODO add "WH"AllowSuitStorageClothingArmor
+  id: WHBaseArmor
+  abstract: true
+  components:
+  - type: Sprite
+    state: icon # default state used by most inheritors
+  - type: Item
+    size: Huge
+  - type: CMDefibrillatorBlocked
+    popup: cm-defib-take-off-armor
+    showOnExamine: false
+  - type: InteractedBlacklist
+    blacklist:
+      components:
+      - Xeno
+  - type: Clothing
+    equipSound:
+      path: /Audio/_RMC14/Machines/armor_equip.ogg #TODO replace sound
+  - type: PlaytimeMedalHolder
+  - type: MoveOrderArmor
+
+#TODO add "WH"AllowSuitStorageClothingArmor
+
+#TODO add "WH"AllowSuitStorageClothingArmor
+
+# Imperium
+
+- type: entity
+  parent: WHBaseArmor
+  id: WHBaseImperiumArmor
+  abstract: true
+  components:
+  - type: Clothing
+    equipDelay: 2
+    unequipDelay: 2
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,5,1 # 3 slots
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: [ ]
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: FixedItemSizeStorage
+  # - type: IgnoreContentsSize
+  #   items:
+  #     tags:
+      # - CMMagazineRifle
+      # - CMMagazineSmg
+      # - CMMagazineSniper
+      # - CMMagazinePistol
+      # - RMCMagazineRevolver
+      # - MRE
+      # - PillPacket
+      # - PillCanister
+      # - CMSurgicalCase
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: RMCNameItemOnVend
+    item: Armor
+  - type: CMHardArmor
+  - type: RMCBulkyArmor
+  - type: RMCMagneticArmor
+  # - type: SquadArmor
+  #   layer: Armor
+  #   slot: OUTERCLOTHING
+  #   rsi:
+  #     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/armor_overlays.rsi
+  #     state: std-armor
+  #   leaderRsi:
+  #     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/armor_overlays.rsi
+  #     state: sql-armor
+
+# Chaos
+
+- type: entity
+  parent: WHBaseArmor
+  id: WHBaseChaosArmor
+  abstract: true
+  components:
+  - type: Clothing
+    equipDelay: 2
+    unequipDelay: 2
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,5,1 # 3 slots
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: [ ]
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: FixedItemSizeStorage
+  # - type: IgnoreContentsSize
+  #   items:
+  #     tags:
+      # - CMMagazineRifle
+      # - CMMagazineSmg
+      # - CMMagazineSniper
+      # - CMMagazinePistol
+      # - RMCMagazineRevolver
+      # - MRE
+      # - PillPacket
+      # - PillCanister
+      # - CMSurgicalCase
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: RMCNameItemOnVend
+    item: Armor
+  - type: CMHardArmor
+  - type: RMCBulkyArmor
+  - type: RMCMagneticArmor
+  # - type: SquadArmor
+  #   layer: Armor
+  #   slot: OUTERCLOTHING
+  #   rsi:
+  #     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/armor_overlays.rsi
+  #     state: std-armor
+  #   leaderRsi:
+  #     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/armor_overlays.rsi
+  #     state: sql-armor
+
+#TODO add light armor
