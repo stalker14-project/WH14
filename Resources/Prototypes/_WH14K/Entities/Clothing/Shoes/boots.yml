@@ -1,0 +1,93 @@
+# - type: entity
+#   abstract: true
+#   id: WHItemSlotBoots
+#   suffix: Filled
+#   components:
+#   - type: ContainerContainer
+#     containers:
+#       item: !type:ContainerSlot
+#   - type: ItemSlots
+#     slots:
+#       item:
+#         name: cm-knife
+#         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
+#         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
+#         whitelist:
+#           tags:
+#           - Knife
+#           - Holdout
+#           - Screwdriver
+#           - RMCScalpel
+#           - ThrowingKnife
+#         startingItem: RMCM5Bayonet
+#   - type: CMItemSlots
+#     startingItem: RMCM5Bayonet
+#   - type: Appearance
+
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: WHBlackBoots
+  name: Black boots
+  suffix: WH
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Shoes/Boots/black_boots.rsi
+    layers:
+    - state: icon
+    #TODO make filled state
+    # - state: filled
+    #   map: [ "enum.CMItemSlotsLayers.Fill" ]
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Shoes/Boots/black_boots.rsi
+  - type: ContainerContainer
+    containers:
+      item: !type:ContainerSlot
+  # - type: ItemSlots
+  #   slots:
+  #     item:
+  #       name: cm-knife
+  #       insertSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
+  #       ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
+  #       whitelist:
+  #         tags:
+  #         - Knife
+  #         - Holdout
+  #         - Screwdriver
+  #         - RMCScalpel
+  - type: Matchbox
+  - type: CMHolster
+  - type: CMItemSlots
+  - type: UsableWhileDevoured
+
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: WHLeatherBoots
+  name: Leather boots
+  suffix: WH
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Shoes/Boots/leather_boots.rsi
+    layers:
+    - state: icon
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Shoes/Boots/leather_boots.rsi
+  - type: ContainerContainer
+    containers:
+      item: !type:ContainerSlot
+  # - type: ItemSlots
+  #   slots:
+  #     item:
+  #       name: cm-knife
+  #       insertSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
+  #       ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
+  #       whitelist:
+  #         tags:
+  #         - Knife
+  #         - Holdout
+  #         - Screwdriver
+  #         - RMCScalpel
+  - type: Matchbox
+  - type: CMHolster
+  - type: CMItemSlots
