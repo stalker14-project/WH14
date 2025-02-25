@@ -1,0 +1,10 @@
+# base
+- type: entity
+  parent: ClothingMaskPullableBase
+  id: WHBaseMask
+  abstract: true
+  components:
+  - type: HideLayerClothing
+    slots:
+    - Snout
+    hideOnToggle: true

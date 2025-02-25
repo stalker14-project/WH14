@@ -20,9 +20,9 @@
   description: Soon...
   components:
   - type: Sprite
-    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Helmets/pilot_hemlet.rsi
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Helmets/pilot_helmet.rsi
   - type: Clothing
-    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Helmets/pilot_hemlet.rsi
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Helmets/pilot_helmet.rsi
 
 - type: entity
   parent: [WHImperiumHelmetBase, WHFoldableHelmetBase]
@@ -32,6 +32,6 @@
   description: Soon...
   components:
   - type: Sprite
-    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Helmets/voidsmen_hemlet.rsi
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Helmets/voidsmen_helmet.rsi
   - type: Clothing
-    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Helmets/voidsmen_hemlet.rsi
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Helmets/voidsmen_helmet.rsi
