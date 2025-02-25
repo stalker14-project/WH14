@@ -1,0 +1,11 @@
+# Chaos
+- type: entity
+  parent: [WHFactionUniformBase, WHFoldableUniformBase]
+  id: WHJumpsuitChaos
+  name: Chaos uniform
+  suffix: WH, Chaos
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Uniforms/Chaos/bloody_uniform.rsi
+  - type: Appearance

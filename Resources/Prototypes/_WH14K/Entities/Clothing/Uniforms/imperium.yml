@@ -1,0 +1,23 @@
+# Astra Militarum
+- type: entity
+  parent: [WHFactionUniformBase, WHFoldableUniformBase]
+  id: WHJumpsuitAstraMilitarum
+  name: Astra militarum uniform
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Uniforms/Imperium/AstraMilitarum/astramilitarum_uniform.rsi
+  - type: Appearance
+
+# Navis Imperialis
+- type: entity
+  parent: [WHFactionUniformBase, WHFoldableUniformBase]
+  id: WHJumpsuitNavisImperialis
+  name: Navis imperialis uniform
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Uniforms/Imperium/NavisImperialis/navisimperialis_uniform.rsi
+  - type: Appearance
