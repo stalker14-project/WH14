@@ -1,0 +1,48 @@
+# Chaos
+- type: entity
+  parent: [WHChaosHelmetBase, WHFoldableHelmetBase]
+  id: WHBlackHelmet
+  name: Black helmet
+  suffix: WH, Chaos
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Head/Chaos/Helmets/black_helmet.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Head/Chaos/Helmets/black_helmet.rsi
+
+- type: entity
+  parent: [WHChaosHelmetBase, WHFoldableHelmetBase]
+  id: WHChaosMedicHelmet
+  name: Chaos medic helmet
+  suffix: WH, Chaos
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Head/Chaos/Helmets/medic_helmet.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Head/Chaos/Helmets/medic_helmet.rsi
+
+- type: entity
+  parent: [WHChaosHelmetBase, WHFoldableHelmetBase]
+  id: WHRedHelmet
+  name: Red helmet
+  suffix: WH, Chaos
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Head/Chaos/Helmets/red_helmet.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Head/Chaos/Helmets/red_helmet.rsi
+
+- type: entity
+  parent: [WHChaosHelmetBase, WHFoldableHelmetBase]
+  id: WHVoxHelmet
+  name: Vox helmet
+  suffix: WH, Chaos
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Head/Chaos/Helmets/vox_helmet.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Head/Chaos/Helmets/vox_helmet.rsi
