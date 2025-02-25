@@ -1,4 +1,4 @@
-# AstraMilitarium
+# AstraMilitarum
 - type: entity
   parent: WHBaseImperiumArmor
   id: WHImperiumLieutenantCoat
@@ -7,7 +7,7 @@
   description: Soon...
   components:
   - type: Sprite
-    sprite: _WH14K/Objects/Clothing/OuterClothing/Imperium/AstraMilitarium/lieutenant_coat.rsi
+    sprite: _WH14K/Objects/Clothing/OuterClothing/Imperium/AstraMilitarum/lieutenant_coat.rsi
   - type: CMArmor
     armor: 20
     bio: 20
@@ -29,7 +29,7 @@
   description: Soon...
   components:
   - type: Sprite
-    sprite: _WH14K/Objects/Clothing/OuterClothing/Imperium/AstraMilitarium/sentinel_armor.rsi
+    sprite: _WH14K/Objects/Clothing/OuterClothing/Imperium/AstraMilitarum/sentinel_armor.rsi
   - type: CMArmor
     armor: 20
     bio: 20
@@ -42,7 +42,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0
     worn: false
-# AstraMilitarium
+
+# AstraMilitarum
 
 # NavisImperialis
 - type: entity
@@ -132,4 +133,5 @@
   - type: ExplosionResistance
     damageCoefficient: 0
     worn: false
+
 # NavisImperialis

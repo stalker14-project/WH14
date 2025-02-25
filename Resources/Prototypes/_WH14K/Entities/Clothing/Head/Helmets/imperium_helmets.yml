@@ -1,0 +1,37 @@
+# Astra Militarum
+- type: entity
+  parent: [WHImperiumHelmetBase, WHFoldableHelmetBase]
+  id: WHSentinelHelmet
+  name: Sentinel helmet
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/AstraMilitarum/Helmets/sentinel_helmet.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/AstraMilitarum/Helmets/sentinel_helmet.rsi
+
+# Navis Imperialis
+- type: entity
+  parent: [WHImperiumHelmetBase, WHFoldableHelmetBase]
+  id: WHPilotHelmet
+  name: Pilot helmet
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Helmets/pilot_hemlet.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Helmets/pilot_hemlet.rsi
+
+- type: entity
+  parent: [WHImperiumHelmetBase, WHFoldableHelmetBase]
+  id: WHVoidsmenHelmet
+  name: Voidsmen helmet
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Helmets/voidsmen_hemlet.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Helmets/voidsmen_hemlet.rsi
