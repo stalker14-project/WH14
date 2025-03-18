@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent: CMBaseWeaponRifle
   name: M4SPR battle rifle
   id: WeaponRifleM4SPR
