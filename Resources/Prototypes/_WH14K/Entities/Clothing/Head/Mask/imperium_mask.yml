@@ -1,0 +1,22 @@
+# Astra Militarum
+
+# Navis Imperialis
+- type: entity
+  parent: WHBaseMask
+  id: WHPilotMask
+  name: Pilot mask
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Mask/pilot_mask.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Mask/pilot_mask.rsi
+    slots:
+    - Mask
+    - Suitstorage
+  - type: Item
+    size: Small
+  - type: Tag
+    tags:
+    - GasMask

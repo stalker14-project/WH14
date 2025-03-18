@@ -1,0 +1,82 @@
+# - type: entity
+#   parent: ClothingBackpack
+#   abstract: true
+#   id: WHPersonalStorageBase
+#   name: backpack
+#   description: You wear this on your back and put items into it.
+#   components:
+#   - type: Sprite
+#     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Civilians/standard.rsi #TODO Replace sprite
+#     layers:
+#     - state: icon
+#     - state: open
+#       map: [ "openLayer" ]
+#     - state: closed
+#       map: [ "closedLayer" ]
+#   - type: Appearance
+#   - type: CMStorageVisualizer
+#     storageClosed: closedLayer
+#     storageOpen: openLayer
+#   - type: Clothing
+#     quickEquip: false
+#     slots:
+#     - back
+#   - type: Item
+#     size: Large
+#   - type: Storage
+#     maxItemSize: Normal
+#     grid:
+#     - 0,0,20,1
+#     blacklist: {}
+#   - type: ContainerContainer
+#     containers:
+#       storagebase: !type:Container
+#         ents: []
+#   - type: UserInterface
+#     interfaces:
+#       enum.StorageUiKey.Key:
+#         type: StorageBoundUserInterface
+#   - type: ExplosionResistance
+#     damageCoefficient: 0
+#     worn: false
+#   - type: InteractedBlacklist
+#     blacklist:
+#       components:
+#       - Xeno
+#   # - type: StorageStoreSkillRequired
+#   #   entries:
+#   #   - whitelist:
+#   #       tags:
+#   #       - RMCEngineerKit
+#   #     skills:
+#   #       all:
+#   #         RMCSkillEngineer: 2
+#   #   - whitelist:
+#   #       tags:
+#   #       - CMFirstAidKit
+#   #     skills:
+#   #       all:
+#   #         RMCSkillMedical: 2
+
+# - type: entity
+#   parent: WHPersonalStorageBase
+#   id: WHBackpack
+#   name: backpack
+#   description: You wear this on your back and put items into it.
+#   components:
+#   - type: StorageOpenDoAfter
+#     skipInHand: true
+#     skipOnGround: true
+#   - type: StorageCloseOnMove
+#     skipInHand: true
+
+# # Imperium
+# - type: entity
+#   parent: WHBackpack
+#   id: WHGuardsmenBackpack
+#   name: Guardsmen backpack
+#   suffix: WH, Imperium
+#   description: Soon...
+#   components:
+#   - type: Sprite
+#     sprite: _WH14K/Objects/Clothing/Back/Backpacks/guardsmen_backpack.rsi

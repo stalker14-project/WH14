@@ -1,0 +1,76 @@
+# Astra Militarum
+- type: entity
+  parent: ClothingHeadBase
+  id: WHLieutenantHat
+  name: Lieutenant hat
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/AstraMilitarum/Hats/lieutenant_hat.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/AstraMilitarum/Hats/lieutenant_hat.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+
+# Navis Imperialis
+- type: entity
+  parent: ClothingHeadBase
+  id: WHCrewmateHat
+  name: Crewmate hat
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Hats/crewmate_hat.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Hats/crewmate_hat.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+
+- type: entity
+  parent: ClothingHeadBase
+  id: WHPilotLeatherHat
+  name: Pilot leather hat
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Hats/pilot_leatherhat.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Hats/pilot_leatherhat.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+
+- type: entity
+  parent: ClothingHeadBase
+  id: WHVoidsmenHat
+  name: Voidsmen hat
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Hats/voidsmen_hat.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Hats/voidsmen_hat.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+
+- type: entity
+  parent: ClothingHeadBase
+  id: WHOfficerVoidsmenHat
+  name: Officer voidsmen hat
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Hats/voidsmen_officerhat.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Head/Imperium/NavisImperialis/Hats/voidsmen_officerhat.rsi
+  - type: Tag
+    tags:
+    - ClothMade

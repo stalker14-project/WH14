@@ -1,0 +1,110 @@
+# Chaos
+- type: entity
+  parent: WHBaseChaosArmor
+  id: WHChaosBlackArmor
+  name: Black armor
+  suffix: WH, Chaos
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/OuterClothing/Chaos/black_armor.rsi
+  - type: CMArmor
+    armor: 20
+    bio: 20
+    explosionArmor: 15
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: ClothingSpeedModifier
+    walkModifier: 0.666
+    sprintModifier: 0.666
+  - type: ExplosionResistance
+    damageCoefficient: 0
+    worn: false
+
+- type: entity
+  parent: WHBaseChaosArmor
+  id: WHChaosDuelistArmor
+  name: Duelist armor
+  suffix: WH, Chaos
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/OuterClothing/Chaos/duelist_armor.rsi
+  - type: CMArmor
+    armor: 20
+    bio: 20
+    explosionArmor: 15
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: ClothingSpeedModifier
+    walkModifier: 0.666
+    sprintModifier: 0.666
+  - type: ExplosionResistance
+    damageCoefficient: 0
+    worn: false
+
+- type: entity
+  parent: WHBaseChaosArmor #TODO make WHBaseChaosArmor"Light"
+  id: WHChaosLightArmor
+  name: Light armor
+  suffix: WH, Chaos
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/OuterClothing/Chaos/light_armor.rsi
+  - type: CMArmor
+    armor: 20
+    bio: 20
+    explosionArmor: 15
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: ClothingSpeedModifier
+    walkModifier: 0.666
+    sprintModifier: 0.666
+  - type: ExplosionResistance
+    damageCoefficient: 0
+    worn: false
+
+- type: entity
+  parent: WHBaseChaosArmor
+  id: WHChaosMasterArmor
+  name: Master armor
+  suffix: WH, Chaos
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/OuterClothing/Chaos/master_armor.rsi
+  - type: CMArmor
+    armor: 20
+    bio: 20
+    explosionArmor: 15
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: ClothingSpeedModifier
+    walkModifier: 0.666
+    sprintModifier: 0.666
+  - type: ExplosionResistance
+    damageCoefficient: 0
+    worn: false
+
+- type: entity
+  parent: WHBaseChaosArmor
+  id: WHChaosSergeantArmor
+  name: Sergeant armor
+  suffix: WH, Chaos
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/OuterClothing/Chaos/sergeant_armor.rsi
+  - type: CMArmor
+    armor: 20
+    bio: 20
+    explosionArmor: 15
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: ClothingSpeedModifier
+    walkModifier: 0.666
+    sprintModifier: 0.666
+  - type: ExplosionResistance
+    damageCoefficient: 0
+    worn: false

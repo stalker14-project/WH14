@@ -1,0 +1,62 @@
+# Chaos
+- type: entity
+  parent: WHBaseMask
+  id: WHBloodGasMask
+  name: Blood gas mask
+  suffix: WH, Chaos
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Head/Chaos/Mask/blood_gasmask.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Head/Chaos/Mask/blood_gasmask.rsi
+    slots:
+    - Mask
+    - Suitstorage
+  - type: Item
+    size: Small
+  - type: Tag
+    tags:
+    - GasMask
+
+- type: entity
+  parent: WHBaseMask
+  id: WHSkullMask
+  name: Skull mask
+  suffix: WH, Chaos
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Head/Chaos/Mask/skull_mask.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Head/Chaos/Mask/skull_mask.rsi
+  - type: IdentityBlocker
+    coverage: MOUTH
+  - type: Item
+    storedRotation: -90
+  - type: HideLayerClothing
+    slots:
+    - HeadTop
+    - HeadSide
+    - Snout
+
+- type: entity
+  parent: WHBaseMask
+  id: WHSteelMouthMask
+  name: Steel mouth
+  suffix: WH, Chaos
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Head/Chaos/Mask/steel_mouth.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Head/Chaos/Mask/steel_mouth.rsi
+  - type: IdentityBlocker
+    coverage: MOUTH
+  - type: Item
+    storedRotation: -90
+  - type: HideLayerClothing
+    slots:
+    - HeadTop
+    - HeadSide
+    - Snout

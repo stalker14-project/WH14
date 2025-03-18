@@ -1,0 +1,47 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: WHBlackGloves
+  name: Black gloves
+  suffix: WH
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Hands/Gloves/black_gloves.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Hands/Gloves/black_gloves.rsi
+  - type: Fiber
+    fiberMaterial: fibers-leather
+    fiberColor: fibers-black
+  - type: FingerprintMask
+
+- type: entity
+  parent: ClothingHandsBase
+  id: WHLeatherGloves
+  name: Leather gloves
+  suffix: WH
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Hands/Gloves/leather_gloves.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Hands/Gloves/leather_gloves.rsi
+  - type: Fiber
+    fiberMaterial: fibers-leather
+    fiberColor: fibers-black
+  - type: FingerprintMask
+
+- type: entity
+  parent: ClothingHandsBase
+  id: WHMedicGloves
+  name: Medic gloves
+  suffix: WH
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/Hands/Gloves/medic_gloves.rsi
+  - type: Clothing
+    sprite: _WH14K/Objects/Clothing/Hands/Gloves/medic_gloves.rsi
+  - type: Fiber
+    fiberMaterial: fibers-leather
+    fiberColor: fibers-black
+  - type: FingerprintMask

@@ -1,0 +1,137 @@
+# AstraMilitarum
+- type: entity
+  parent: WHBaseImperiumArmor
+  id: WHImperiumLieutenantCoat
+  name: Lieutenant coat
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/OuterClothing/Imperium/AstraMilitarum/lieutenant_coat.rsi
+  - type: CMArmor
+    armor: 20
+    bio: 20
+    explosionArmor: 15
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: ClothingSpeedModifier
+    walkModifier: 0.666
+    sprintModifier: 0.666
+  - type: ExplosionResistance
+    damageCoefficient: 0
+    worn: false
+
+- type: entity
+  parent: WHBaseImperiumArmor
+  id: WHImperiumSentinelCoat
+  name: Sentinel coat
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/OuterClothing/Imperium/AstraMilitarum/sentinel_armor.rsi
+  - type: CMArmor
+    armor: 20
+    bio: 20
+    explosionArmor: 15
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: ClothingSpeedModifier
+    walkModifier: 0.666
+    sprintModifier: 0.666
+  - type: ExplosionResistance
+    damageCoefficient: 0
+    worn: false
+
+# AstraMilitarum
+
+# NavisImperialis
+- type: entity
+  parent: WHBaseImperiumArmor
+  id: WHImperiumPilotJacket
+  name: Pilot jacket
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/OuterClothing/Imperium/NavisImperialis/pilot_jacket.rsi
+  - type: CMArmor
+    armor: 20
+    bio: 20
+    explosionArmor: 15
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: ClothingSpeedModifier
+    walkModifier: 0.666
+    sprintModifier: 0.666
+  - type: ExplosionResistance
+    damageCoefficient: 0
+    worn: false
+
+- type: entity
+  parent: WHBaseImperiumArmor
+  id: WHImperiumPilotVest
+  name: Pilot vest
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/OuterClothing/Imperium/NavisImperialis/pilot_vest.rsi
+  - type: CMArmor
+    armor: 20
+    bio: 20
+    explosionArmor: 15
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: ClothingSpeedModifier
+    walkModifier: 0.666
+    sprintModifier: 0.666
+  - type: ExplosionResistance
+    damageCoefficient: 0
+    worn: false
+
+- type: entity
+  parent: WHBaseImperiumArmor
+  id: WHImperiumSoftVest
+  name: Soft vest
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/OuterClothing/Imperium/NavisImperialis/soft_vest.rsi
+  - type: CMArmor
+    armor: 20
+    bio: 20
+    explosionArmor: 15
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: ClothingSpeedModifier
+    walkModifier: 0.666
+    sprintModifier: 0.666
+  - type: ExplosionResistance
+    damageCoefficient: 0
+    worn: false
+
+- type: entity
+  parent: WHBaseImperiumArmor
+  id: WHImperiumVoidsmenArmor
+  name: Voidsmen armor
+  suffix: WH, Imperium
+  description: Soon...
+  components:
+  - type: Sprite
+    sprite: _WH14K/Objects/Clothing/OuterClothing/Imperium/NavisImperialis/voidsmen_armor.rsi
+  - type: CMArmor
+    armor: 20
+    bio: 20
+    explosionArmor: 15
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: ClothingSpeedModifier
+    walkModifier: 0.666
+    sprintModifier: 0.666
+  - type: ExplosionResistance
+    damageCoefficient: 0
+    worn: false
+
+# NavisImperialis
