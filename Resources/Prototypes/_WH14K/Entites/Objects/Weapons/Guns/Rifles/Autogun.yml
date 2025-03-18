@@ -1,0 +1,77 @@
+- type: entity
+  parent: CMBaseWeaponRifle
+  name: Automatic Rifle
+  id: WeaponRifleAutogun
+  suffix: Desert
+  description: Одно из основных вооружений Имперской гвардии
+  components:
+  - type: Sprite
+    sprite: _WH14\Objects\Weapons\Guns\Rifles\autogun.rsi
+    layers:
+    - state: bolt-open
+      map: [ "enum.GunVisualLayers.Base" ]
+    - sprite: _RMC14/Objects/Weapons/Guns/Attachments/barrel.rsi
+      state: d_m4spr_barrel
+      offset: 0.65, 0
+      map: [ "barrel" ]
+    - state: mag-0
+      map: [ "enum.GunVisualLayers.Mag" ]
+  - type: Clothing
+    sprite: _WH14\Objects\Weapons\Guns\Rifles\autogun.rsi
+  - type: Gun
+    shotsPerBurst: 0
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_RMC14/Weapons/Guns/Gunshots/gun_m4spr.ogg
+  - type: RMCSelectiveFire
+    baseFireModes:
+    - FullAuto
+    recoilUnwielded: 2
+    scatterWielded: 6
+    baseFireRate: 6
+  - type: RMCWeaponAccuracy
+    accuracyMultiplier: 1.25
+    accuracyMultiplierUnwielded: 0.6
+  - type: RMCWeaponDamageFalloff
+    falloffMultiplier: 0
+  - type: WieldDelay
+    baseDelay: 0.2
+  - type: WieldableSpeedModifiers
+    base: 0.725
+    light: 1
+    medium: 1
+    heavy: 1
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        insertSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_reload.ogg
+        ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_unload.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineRifle
+  - type: GunDamageModifier
+    multiplier: 1.4
+  
+
+
+- type: entity
+  parent: WeaponRifleAutogun
+  id: WeaponRifleAutogunFilled
+  suffix: Filled
+  components:
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: CMMagazineRifleM4SPR
+        insertSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_reload.ogg
+        ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_unload.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineRifle
+ 
