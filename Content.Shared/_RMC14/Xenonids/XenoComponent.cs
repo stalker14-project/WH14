@@ -2,6 +2,7 @@
 using Content.Shared.Access;
 using Content.Shared.Alert;
 using Content.Shared.Chat.Prototypes;
+using Content.Shared.Eye;
 using Content.Shared.FixedPoint;
 using Content.Shared.Roles;
 using Robust.Shared.GameStates;
@@ -77,6 +78,9 @@ public sealed partial class XenoComponent : Component
     [DataField, AutoNetworkedField]
     public ProtoId<EmoteSoundsPrototype>? EmoteSounds = "Xeno";
 
+    [DataField, AutoNetworkedField]
+    public bool MuteOnSpawn;
+
     /// <summary>
     /// Hides this xeno from the caste unlock announcements.
     /// Use for admeme or unimplemented castes that can't be evolved to.
@@ -85,4 +89,7 @@ public sealed partial class XenoComponent : Component
     public bool Hidden;
 
     public EmoteSoundsPrototype? Sounds;
+
+    [DataField, AutoNetworkedField]
+    public VisibilityFlags Visibility = VisibilityFlags.Xeno;
 }
