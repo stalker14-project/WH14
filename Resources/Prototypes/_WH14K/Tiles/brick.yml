@@ -1,0 +1,25 @@
+- type: tile
+  abstract: true
+  parent: CMTileBase
+  id: WHFloorBrickBase
+  name: tiles-wh-brick
+
+- type: tile
+  parent: WHFloorBrickBase
+  id: WHFloorBrick1
+  sprite: /Textures/_WH14K/Tiles/brick/brick1.png
+
+- type: tile
+  parent: WHFloorBrickBase
+  id: WHFloorBrick2
+  sprite: /Textures/_WH14K/Tiles/brick/brick2.png
+
+- type: tile
+  parent: WHFloorBrickBase
+  id: WHFloorBrick3
+  sprite: /Textures/_WH14K/Tiles/brick/brick3.png
+
+- type: tile
+  parent: WHFloorBrickBase
+  id: WHFloorBrick4
+  sprite: /Textures/_WH14K/Tiles/brick/brick4.png
