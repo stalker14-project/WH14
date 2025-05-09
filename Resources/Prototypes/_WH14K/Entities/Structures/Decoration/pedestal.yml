@@ -1,0 +1,38 @@
+- type: entity
+  parent: BaseMachine
+  id: Pedestal
+  name: structure-wh-decoration-pedestal
+  description: structure-wh-decoration-pedestal
+  components:
+  - type: Sprite
+    sprite: _WH14K/Structures/Decoration/pedestal.rsi
+    state: pedestal
+  - type: Icon
+    sprite: _WH14K/Structures/Decoration/pedestal.rsi
+    state: pedestal
+  - type: Anchorable
+    enabled: false
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.10,-0.10,0.10,0.10"
+        density: 150
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+
+- type: entity
+  parent: Pedestal
+  id: BloodPedestal
+  name: structure-wh-decoration-blood-pedestal
+  description: structure-wh-decoration-blood-pedestal
+  components:
+  - type: Sprite
+    sprite: _WH14K/Structures/Decoration/pedestal.rsi
+    state: blood_pedestal
+  - type: Icon
+    sprite: _WH14K/Structures/Decoration/pedestal.rsi
+    state: blood_pedestal
