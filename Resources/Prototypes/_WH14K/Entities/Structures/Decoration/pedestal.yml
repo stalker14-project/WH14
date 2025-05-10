@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMachine
   id: Pedestal
-  name: Pedestal
-  description: An ornate pedestal designed to display various items and artifacts. Made from polished stone with intricate carvings.
+  name: structure-wh-decoration-pedestal
+  description: structure-wh-decoration-pedestal
   components:
   - type: Sprite
     sprite: _WH14K/Structures/Decoration/pedestal.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: Pedestal
   id: BloodPedestal
-  name: Blood Pedestal
-  description: An ancient pedestal covered in dried blood. Dark stains suggest it was once used for sinister rituals.
+  name: structure-wh-decoration-blood-pedestal
+  description: structure-wh-decoration-blood-pedestal
   components:
   - type: Sprite
     sprite: _WH14K/Structures/Decoration/pedestal.rsi
