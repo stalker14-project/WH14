@@ -1,0 +1,30 @@
+- type: tile
+  abstract: true
+  parent: CMTileBase
+  id: WHFloorMarbleBase
+  name: tiles-wh-Marble
+
+- type: tile
+  parent: WHFloorMarbleBase
+  id: WHFloorMarble1
+  sprite: /Textures/_WH14k/Tiles/marble.rsi/marble1.png
+
+- type: tile
+  parent: WHFloorMarbleBase
+  id: WHFloorMarble2
+  sprite: /Textures/_WH14k/Tiles/marble.rsi/marble2.png
+
+- type: tile
+  parent: WHFloorMarbleBase
+  id: WHFloorMarble3
+  sprite: /Textures/_WH14k/Tiles/marble.rsi/marble3.png
+
+- type: tile
+  parent: WHFloorMarbleBase
+  id: WHFloorMarble4
+  sprite: /Textures/_WH14k/Tiles/marble.rsi/marble4.png
+
+- type: tile
+  parent: WHFloorMarbleBase
+  id: WHFloorMarble5
+  sprite: /Textures/_WH14k/Tiles/marble.rsi/marble5.png

@@ -1,0 +1,38 @@
+- type: entity
+  parent: BaseMachine
+  id: Pedestal
+  name: Pedestal
+  description: An ornate pedestal designed to display various items and artifacts. Made from polished stone with intricate carvings.
+  components:
+  - type: Sprite
+    sprite: _WH14K/Structures/Decoration/pedestal.rsi
+    state: pedestal
+  - type: Icon
+    sprite: _WH14K/Structures/Decoration/pedestal.rsi
+    state: pedestal
+  - type: Anchorable
+    enabled: false
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.10,-0.10,0.10,0.10"
+        density: 150
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+
+- type: entity
+  parent: Pedestal
+  id: BloodPedestal
+  name: Blood Pedestal
+  description: An ancient pedestal covered in dried blood. Dark stains suggest it was once used for sinister rituals.
+  components:
+  - type: Sprite
+    sprite: _WH14K/Structures/Decoration/pedestal.rsi
+    state: blood_pedestal
+  - type: Icon
+    sprite: _WH14K/Structures/Decoration/pedestal.rsi
+    state: blood_pedestal
